@@ -4,7 +4,7 @@ const MapContext = createContext();
 
 export const MapProvider = ({ children }) => {
   const [isNavigating, setIsNavigating] = useState([]);
-  const [yPositionCamera, setYPositionCamera] = useState(0);
+  const [yPositionCamera, setYPositionCamera] = useState(2);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [groupData, setGroupData] = useState(16);
 

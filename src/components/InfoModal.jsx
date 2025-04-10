@@ -13,6 +13,15 @@ export const InfoModal = () => {
   const [data, setData] = useState(groupData);
 
   useEffect(() => {
+    if (modalRef.current) {
+      gsap.set(modalRef.current, {
+        y: window.innerWidth <= 768 ? "100%" : 0,
+        x: window.innerWidth <= 768 ? 0 : "100%",
+      });
+    }
+  }, [modalRef]);
+
+  useEffect(() => {
     if (!modalRef.current) return;
 
     if (isModalOpen) {
