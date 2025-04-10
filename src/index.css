@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+.container-webgl {
+  --hdr-gradient: linear-gradient(
+    179deg in lch,
+    rgb(52% 14% 100%) 0%,
+    color(display-p3 100% 85% 30%) 100%
+  );
+  --sdr-gradient: linear-gradient(179deg, #370040 0%, #29166c 100%);
+
+  background: var(--sdr-gradient);
+}
+
+* {
+  /* outline: solid 1px red; */
+}

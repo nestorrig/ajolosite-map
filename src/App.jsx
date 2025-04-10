@@ -1,17 +1,11 @@
-import { Experience } from "./Experience"
-
+import { Experience } from "./Experience";
 
 function App() {
-
   return (
     <>
-      <div className="fixed inset-0">
-        <Experience />
-      </div>
-       
-       
+      <Experience />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
