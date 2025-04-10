@@ -166,7 +166,8 @@ export const userGroups = [
   {
     id: 7,
     name: "Queretaro",
-    description: "Grupo de usuarios C",
+    description:
+      "Este grupo tiene como propósito enseñarte sobre diseño y arquitectura en la nube de Amazon Web Services, hablaremos sobre temas relacionados a alta disponibilidad, big data, mobile, backend entre muchos otros con talleres en donde podrás aprender a desarrollar soluciones robustas para tu negocio ó proyecto de emprendimiento.",
     color: "#3357FF",
     coordinates: [
       0.24790975984726904, 1.2880056181315527e-16, 0.551280371553521,
@@ -216,7 +217,7 @@ export const userGroups = [
   },
   {
     id: 9,
-    name: "Ajolotes en la nube",
+    name: "Ajolotes en la Nube",
     description: `Este grupo está enfocado en brindar apoyo y conocimiento sobre todo lo relacionado a AWS, es decir, aprenderás sobre el uso, la implementación y la optimización de los servicios de Amazon Web Services (AWS).
 
     Recordemos que AWS es una plataforma de servicios en la nube que ofrece una amplia gama de herramientas y recursos para empresas y desarrolladores. Por ende, este grupo está compuesto por profesionales y entusiastas de la tecnología que buscan aprender, compartir conocimientos y resolver desafíos relacionados con la infraestructura en la nube.
